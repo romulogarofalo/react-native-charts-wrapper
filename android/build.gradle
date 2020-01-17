@@ -31,7 +31,7 @@ repositories {
     maven { url "https://jitpack.io" }
 }
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "com.facebook.react:react-native:+"  // From node_modules
+    compile 'com.github.romulogarofalo:MPAndroidChart:master'
 }
